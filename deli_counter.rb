@@ -10,5 +10,5 @@ def line(line_length)
  end
 end
 
-def take_a_number
+def take_a_number(deli, name)
 end
