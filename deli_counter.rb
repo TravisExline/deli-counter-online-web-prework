@@ -5,7 +5,7 @@ def line(line_length)
    phrase = "The line is currently:"
    line_length.each.with_index(1) do |person, num|
      phrase << "#{num}. #{person}"
-   puts " #{num}. #{person}"
+   puts phrase
   end
  end
 end
