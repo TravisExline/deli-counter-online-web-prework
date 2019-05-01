@@ -4,5 +4,6 @@ def line(line_length)
  else line_length.each.with_index(1) do |line_length, num|
    puts "The line is currently: #{num}. #{line_length}"
  end
+ puts line_length
  end
 end
