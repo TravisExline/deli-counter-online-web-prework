@@ -9,3 +9,6 @@ def line(line_length)
     puts current_line
  end
 end
+
+def take_a_number
+end
