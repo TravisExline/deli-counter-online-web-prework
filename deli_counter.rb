@@ -4,4 +4,5 @@ def line(line_length)
  else line_length.each do |person|
    puts "The line is currently: #{person}"
  end
+ end
 end
