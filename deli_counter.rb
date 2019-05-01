@@ -13,6 +13,6 @@ end
 def take_a_number(deli_line, name)
   if deli_line == 0
     deli_line << name
+  end
   puts "Welcome, #{name}. You are number #{deli_line.length} in line."
-end
 end
