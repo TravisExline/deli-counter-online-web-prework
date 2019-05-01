@@ -11,7 +11,7 @@ def line(line_length)
 end
 
 def take_a_number(deli_line, name)
-  if deli_line == 0 do
+  if deli_line == 0
     deli_line << name
   end
   puts "Welcome, #{name} you are number #{deli_length.length} in line"
