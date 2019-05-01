@@ -11,8 +11,6 @@ def line(line_length)
 end
 
 def take_a_number(deli_line, name)
-  if deli_line == 0
-    deli_line << name
-  end
+  deli_line << name
   puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
