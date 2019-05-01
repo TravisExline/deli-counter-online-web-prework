@@ -1,2 +1,3 @@
-def line
+def line(line_length)
+  
 end
