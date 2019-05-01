@@ -4,7 +4,7 @@ def line(line_length)
  else
    phrase = "The line is currently:"
    line_length.each.with_index(1) do |person, num|
-     phrase << "#{num}. #{person}"
+     phrase << " #{num}. #{person}"
    puts phrase
   end
  end
